@@ -1,5 +1,7 @@
 # top3
-Simple text analysis to reveal the top 3 nouns and adjectives in a set of LinkedIn recommendations.
+
+Simple text analysis to reveal the top 3 adjectives in a set of LinkedIn
+recommendations.
 
 ## Quick Start
 
@@ -10,8 +12,7 @@ Simple text analysis to reveal the top 3 nouns and adjectives in a set of Linked
   
 The output is the following:
 
-    defaultdict(<class 'list'>,
-        {   'JJ': [('creative', 4), ('technical', 3), ('excellent', 2)],
-            'NN': [('project', 5), ('team', 4), ('engineer', 4)]})
-            
-Note: If you see requests to download nltk data, follow the instuctions and then run top3.py again.
+    ['technical', 'creative', 'excellent']
+
+Note: If you see requests to download nltk data, follow the instuctions and
+then run top3.py again.
