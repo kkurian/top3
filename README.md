@@ -1,7 +1,8 @@
 # top3
 
 Simple text analysis to reveal the top 3 adjectives in a set of LinkedIn
-recommendations.
+recommendations. For example purposes, the Recommendations.csv are my 
+own.
 
 ## Quick Start
 
